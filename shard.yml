@@ -1,0 +1,23 @@
+name: glass
+version: 0.1.0
+
+authors:
+  - Alex Couch <acouch@damianoglobal.com>
+
+description: |
+  A watchdog tool used as part of a stack environment for watching changes for files and actively recompiling and reporting errors to the user. This will also watch for changes to shard.yml
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+license: MIT
+
+targets:
+  glass:
+    main: src/main.cr
