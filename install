@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir bin &> /dev/null && shards build crystal-ball
+export CRYSTAL_BALL_BIN=$PWD
+echo "export CRYSTAL_BALL_BIN=$PWD/bin" >> ~/.profile
+echo "export PATH=\$PATH:\$CRYSTAL_BALL_BIN" >> ~/.profile

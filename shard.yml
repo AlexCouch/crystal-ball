@@ -1,4 +1,4 @@
-name: glass
+name: crystal-ball
 version: 0.1.0
 
 authors:
@@ -19,5 +19,5 @@ description: |
 license: MIT
 
 targets:
-  glass:
+  crystal-ball:
     main: src/main.cr
