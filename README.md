@@ -1,2 +1,2 @@
-# Crystal Glass
-Crystal Glass is a watchdog utility tool for watching changes to crystal source files and shard.yml and recompiling or updating the project according to the changes. Any reports from either shards or crystal compiler will be shown in the window.
+# Crystal Ball
+Crystal Ball is a watchdog utility tool for watching changes to crystal source files and shard.yml and recompiling or updating the project according to the changes. Any reports from either shards or crystal compiler will be shown in the window.
