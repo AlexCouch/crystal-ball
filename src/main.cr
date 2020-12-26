@@ -76,7 +76,7 @@ class WatcherManager
     getter watchers = [] of Watcher
 
     def from_dir(dir : Dir)
-        puts "Attempting to create source watchers from directory: #{dir.path}"
+        # puts "Attempting to create source watchers from directory: #{dir.path}"
         dir.each_child { |child_path|
             path = Path.new(dir.path).join(Path.new(child_path))
             file = File.new path
